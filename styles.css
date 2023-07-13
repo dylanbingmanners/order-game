@@ -1,0 +1,116 @@
+body {
+    background-color: #191A19;
+}
+
+.card {
+    background-color: #4E9F3D;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 3px;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+    white-space: pre-line;
+}
+
+.card-revealed {
+    line-height: 50px;
+    font-size: 20pt;
+}
+
+.card-incorrect {
+    background-color: #db4141;
+}
+
+.cardslot {
+    background-color: #303030;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 3px;
+    font-size: 0pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303030;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+}
+
+.main-cards {
+    display: grid;
+    gap: 10px;
+    width: auto;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sort-cards {
+    display: grid;
+    gap: 10px;
+    width: auto;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+.final-cards {
+    display: grid;
+    gap: 10px;
+    width: auto;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.sort-block {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+.verify-block {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+.swap-spot {
+    background-color: #295321;
+}
+
+.button {
+    background-color: rgb(131, 131, 131);
+    border: none;
+    width: 150px;
+    min-width: 150px;
+    border-radius: 3px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    user-select: none;
+}
+
+.button:active:enabled {
+    background-color: rgb(85, 85, 85);
+    color: #bebebe;
+}
+
+#button-verify {
+    margin-left: 220px;
+}
+
+.sort-text {
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    user-select: none;
+    text-align: center;
+    margin-top: 20px;
+}
